@@ -1,0 +1,91 @@
+/*reset */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* global */
+:root {
+  --body-background-color: #dddada;
+  --border-grey: #cfcccc;
+  --button-background-color: #d6d2d2;
+  --focus-background-color: black;
+  --text-color: black;
+  --focus-text-color:#ffffff;
+  --border-radius: 5px;
+  --font-size: 20px;
+}
+
+/* style */
+/* body */
+body {
+  background-color: var(--body-background-colo);
+}
+
+.container {
+  max-width: 1000px;
+  min-height: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid var(--border-grey);
+}
+
+/* nav */
+a {
+  color: var(--text-color);
+}
+
+.nav__home, .nav__menu__about, .nav__menu__portfolio, .nav__menu__contact {
+  background-color: var(--button-background-color);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  padding: 8px;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: flex-end; 
+  position: relative;
+}
+
+.nav__home {
+  position: absolute; 
+  top: 0;
+  left: 0;
+}
+
+.nav__menu {
+  display: flex;
+}
+
+.nav__menu__about, .nav__menu__portfolio {
+  margin-right: 10px;
+}
+
+.nav__menu div:hover {
+  background-color: var(--focus-background-color);
+}
+
+.nav__menu a:hover {
+  color: var(--focus-text-color);
+}
+
+/* main */
+#main {
+  margin-top: 50px;
+}
