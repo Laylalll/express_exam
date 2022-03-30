@@ -1,5 +1,5 @@
 # My favorite restaurant list
-![image](https://github.com/Laylalll/restaurant_list/blob/main/public/images/screenshot.png)
+![image](https://github.com/Laylalll/express_exam/blob/main/public/images/Express%20Exam%20-%20localhost.png)
 
 ## Installation
 1. Install node.js, npm and nodemon.
